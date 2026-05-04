@@ -1,0 +1,36 @@
+# EngiLLM: Engineering Problem Solving with Multi-Agent LLM System
+# Python 3.8+ required (Tested with Python 3.10.15)
+
+# Core Data Science Libraries
+pandas>=2.0.0
+numpy>=1.20.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Mathematical Optimization
+pyomo>=6.4.0
+
+# Large Language Models APIs
+openai>=1.0.0
+google-generativeai>=0.3.0
+
+# Additional Dependencies
+requests>=2.25.0
+
+# Scientific Computing
+scipy>=1.7.0
+
+# System and Utilities (Built-in with Python)
+# pathlib, argparse, logging, datetime, json, csv, re, traceback, 
+# time, random, os, sys, subprocess, shutil, typing are standard library
+
+# Development and Testing (Optional)
+pytest>=6.0.0
+black>=20.0.0
+isort>=5.0.0
+
+# Note: Mathematical solvers should be installed separately using conda:
+# conda install -c conda-forge glpk coin-or-cbc ipopt scip
+# pip install cylp
+#
+# For macOS users, run: bash install_solvers.sh
