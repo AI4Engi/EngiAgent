@@ -236,6 +236,3 @@ EngiLLM/
 - Install all packages for model optimization and fully prepare all kinds of solvers
 - Monitor API usage to avoid rate limits
 
----
-
-**EngiLLM** - Advancing Engineering Problem Solving through Multi-Agent AI Systems
